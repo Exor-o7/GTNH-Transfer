@@ -83,10 +83,10 @@ def main():
     source_instance_path = os.path.join(source_path, instance_name)
     try:
         # List of directories to copy
-        directories_to_copy = ['saves', 'journeymap', 'visualprospecting', 'TCNOdeTracker', 'serverutilities', 'schematics', 'resourcepacks', 'screenshots', 'shaderpacks']
+        directories_to_copy = ['saves', 'backups', 'journeymap', 'visualprospecting', 'TCNOdeTracker', 'schematics', 'resourcepacks', 'shaderpacks', 'screenshots']
 
         # List of files to copy
-        files_to_copy = ['localconfig.cfg', 'options.txt', 'BotaniaVars.dat']
+        files_to_copy = ['localconfig.cfg', 'BotaniaVars.dat','options.txt', 'optionsnf.txt', 'servers.dat', 'config/shaderpacks.properties']
 
         # Create destination directory if it doesn't exist
         if not os.path.exists(destination_instance_path + "\.minecraft"):
