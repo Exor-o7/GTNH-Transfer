@@ -5,6 +5,7 @@
 # 1.1 - Added this info lines and in the script as well. Reworded destination instance to put in if different path otherwise just press Enter. Added time module.
 # 1.2 - Added shaderpacks folder
 # 1.3 - Prepared for public release
+# 1.4 - Added backups folder and optionsnf.txt file to transfer
 
 import os
 import shutil
